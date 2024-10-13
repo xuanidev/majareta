@@ -7,7 +7,7 @@ import { Warning } from '@/components/Icons';
 import NavBar from '@/components/NavBar/NavBar';
 import { Skeleton } from '@nextui-org/react';
 import { AllergenType } from './AllergenType';
-import { getItemWithExpiration, setItemWithExpiration } from '../../lib/util'
+import { getItemWithExpiration } from '../../lib/util'
 
 const ProductPage = () => {
     const searchParams = useSearchParams();

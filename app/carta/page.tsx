@@ -8,7 +8,7 @@ import { Plato } from '@/models';
 import { fetchPlatos } from './api'; 
 import { setItemWithExpiration, getItemWithExpiration } from '../lib/util'; 
 
-export const Carta = () => {
+const Carta = () => {
     const options = ['Menu', 'Entrantes y principales', 'Postres', 'Bebidas']; 
     const [selectedOption, setSelectedOption] = useState(options[0]);
     const [isDropdownOpen, setIsDropdownOpen] = useState(false); 
