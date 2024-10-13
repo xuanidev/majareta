@@ -1,0 +1,123 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 1.75rem;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 1200px; /* Limita el ancho máximo */
+    margin: 0 auto; /* Centra el contenido */
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headerLogo{
+    height: 6.25rem;
+    width: 6.25rem;
+} 
+.headerTitle{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 1.75rem;
+    font-weight: 600;
+    font-family: var(--font-poppins), sans-serif;
+    color: white;
+}
+.linksContainer{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+.linksList{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.linksListItem{
+    font-family: var(--font-rethink), sans-serif;
+    width: 100%;
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.625rem 0rem;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.linksListItem:hover{
+    background-color: #FCBB9F;
+}
+.linksIcons{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
+}
+.linksIconItem{
+    width: 1.875rem;
+    height: 1.875rem;
+    fill: white;
+}
+@media (min-width: 768px) {
+    .linksList {
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        list-style-type: none;
+        padding-inline-start: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .linksListItem {
+        max-width: 450px;
+        font-size: 1.25rem;
+        font-weight: 400;
+        padding: 0.75rem 0rem;
+        border-radius: 50px;
+        text-align: center;
+    }
+}
+@media (min-width: 1024px) {
+    .linksList {
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        list-style-type: none;
+        padding-inline-start: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .linksListItem {
+        max-width: 500px;
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding: 0.75rem 0rem;
+        border-radius: 50px;
+        text-align: center;
+    }
+}
+
+

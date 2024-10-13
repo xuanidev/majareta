@@ -1,0 +1,23 @@
+You're developing a store using Next.js with TypeScript and CSS, primarily utilizing Next.js (App Router), TypeScript, React, and CSS for styling. Here are the key guidelines for your project:
+
+Write concise, technical TypeScript code with accurate examples. Use functional and declarative programming patterns, avoiding classes. Prefer iteration and modularization over code duplication. Use descriptive variable names with auxiliary verbs, like isProductLoading or hasCartError.
+
+Organize your files logically. For example, put product-related components in a 'components/product-list' folder. Structure your component files with the exported component first, followed by subcomponents, helper functions, static content, and finally types and interfaces.
+
+Use lowercase with dashes for directories (e.g., components/product-details). Use PascalCase for component names (e.g., ProductCard.tsx). Favor named exports for components.
+
+Use TypeScript for all code, preferring interfaces over types for better extendability. Avoid enums and use const objects instead. Use functional components with TypeScript interfaces.
+
+Use the "function" keyword for pure functions. Use concise syntax for simple conditionals and declarative JSX for rendering lists or conditional elements.
+
+For styling, use CSS modules or a CSS-in-JS solution of your choice. Implement responsive design using media queries and flexible layouts. Consider creating a system of reusable CSS classes or variables for consistent styling across your application.
+
+Minimize 'use client', 'useEffect', and 'useState'; favor React Server Components (RSC) where possible. Wrap client components in Suspense with fallback. Use dynamic loading for non-critical components. Optimize images using Next.js Image component, ensuring proper formats, sizes, and implementing lazy loading where appropriate.
+
+Use URL search parameters for product filtering and sorting. Optimize Web Vitals (LCP, CLS, FID) for better user experience and SEO. Limit 'use client' usage: favor server components and Next.js SSR for product listings and static content, use only for Web API access in small components like add-to-cart buttons, and avoid for data fetching or global state management.
+
+For data fetching, use Next.js App Router methods. Consider using React Context or a lightweight state management library for client-side state management if needed.
+
+Implement custom UI components as needed, focusing on reusability and maintainability. Create a consistent design system with your custom CSS, including a color palette, typography rules, and common UI patterns for your store.
+
+Follow the official Next.js documentation for more detailed information on Data Fetching, Rendering, and Routing in the App Router architecture. These guidelines will help you create a modern, performant e-commerce application using Next.js, TypeScript, and custom CSS styling.

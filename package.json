@@ -1,0 +1,33 @@
+{
+  "name": "nextstore",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/env": "^14.2.13",
+    "@next/font": "^14.2.5",
+    "@nextui-org/react": "^2.4.8",
+    "@nextui-org/skeleton": "^2.0.32",
+    "@vercel/postgres": "^0.10.0",
+    "dotenv": "^16.4.5",
+    "next": "^14.2.13",
+    "react": "^18",
+    "react-dom": "^18.3.1",
+    "resend": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.10",
+    "@types/react": "^18",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}

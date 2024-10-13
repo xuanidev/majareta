@@ -1,0 +1,164 @@
+/* General page layout */
+.carta {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el contenedor ocupe al menos toda la altura de la ventana */
+    justify-content: flex-start; /* Asegura que el contenido comience desde la parte superior */
+    align-items: center;
+    gap: 1.75rem;
+    padding: 1.5rem;
+    background-color: transparent; /* Asegúrate de que el fondo sea transparente */
+    overflow-y: auto; /* Permitir el scroll vertical */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.headerLogo {
+    height: 6.25rem;
+    width: 6.25rem;
+}
+
+.headerTitle {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 1.75rem;
+    font-weight: 600;
+    font-family: var(--font-poppins), sans-serif;
+    color: white;
+}
+
+.cartaContainer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Custom Select Styles */
+.customSelect {
+    position: relative;
+    width: 100%;
+    font-family: var(--font-poppins);
+    max-width: 500px;
+}
+
+.selectSelected {
+    background-color: hsla(0, 0%, 0%, 0.204); /* Transparent background similar to original selector */
+    border: 1px solid white;
+    color: white;
+    padding: 0.625rem 1rem;
+    border-radius: 50px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Aligns text and the arrow */
+    transition: box-shadow 0.3s ease;
+}
+
+.selectSelected:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25); /* Hover effect for select */
+}
+
+.selectItems {
+    position: absolute;
+    border-radius: 10px;
+    top: 100%; /* Display options below the select */
+    left: 0;
+    right: 0;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    transition: max-height 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid white;
+}
+
+.option {
+    background-color: hsla(0, 0%, 100%, 0.89); /* Transparent background similar to original selector */
+    color:black;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option:hover {
+    background-color: #f1f1f1; /* Hover background color for options */
+}
+
+.selectedOption{
+    background-color: rgba(37, 37, 37, 0.92);
+    color: white;
+    position: relative;
+}
+
+.selectHide {
+    display: none; /* Hides the dropdown when not open */
+}
+
+/* Arrow icon for dropdown */
+.selectSelected:after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: calc(50% + 6px);
+    transform: translateY(-50%);
+    border: 6px solid transparent;
+    margin-right: 0.5rem;
+    border-top-color: white; /* Arrow pointing down when dropdown is closed */
+}
+
+.selectSelected.select-arrow-active:after {
+    border-top-color: transparent;
+    border-bottom-color: white; /* Arrow points up when dropdown is open */
+}
+
+/* Product container */
+.productsContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+    flex-grow: 1;
+}
+
+@media (min-width: 768px) {
+    .productsContainer {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
+    .customSelect {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .productsContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .customSelect {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .customSelect {
+        width: 500px;
+    }
+}
+

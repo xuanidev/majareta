@@ -1,0 +1,119 @@
+[
+    {
+        "name": "Croquetas de boletus",
+        "src": "/images/croqueta_boletus.jpg",
+        "alt": "Croquetas de boletus",
+        "price": [{ "name": "Media (4 Und.)", "value": "6.00"}, { "name": "Ración (7 Und.)", "value": "10.90"}],
+        "description": "Deliciosas croquetas rellenas de boletus.",
+        "allergens": ["gluten", "lactosa"],
+        "type": "Entrantes y principales"
+    },
+    {
+        "name": "Croquetas de jamón",
+        "src": "/images/croquetas_jamon.jpg", 
+        "alt": "Croquetas de jamón",
+        "price": [{ "name": "Media (4 Und.)", "value": "6.00"}, { "name": "Ración (7 Und.)", "value": "10.90"}],
+        "description": "Croquetas crujientes con jamón ibérico.",
+        "allergens": ["gluten", "lactosa"],
+        "type": "Entrantes y principales"
+    },
+    {
+        "name": "Albóndigas templadas con miel y mostaza",
+        "src": "/images/albondigas.jpg",
+        "alt": "Albóndigas templadas con miel y mostaza",
+        "price": [{ "name": "Media (4 Und.)", "value": "6.00"}, { "name": "Ración (8 Und.)", "value": "10.90"}],
+        "description": "Albóndigas jugosas con un toque de miel y mostaza.",
+        "allergens": ["gluten", "huevo"],
+        "type": "Entrantes y principales"
+    },
+    {
+        "name": "Tortilla champiñón Portobello",
+        "src": "/images/tortilla_champinon.jpg",
+        "alt": "Tortilla de champiñón Portobello",
+        "price": [{ "name": "Plato", "value": "10.90"}],
+        "description": "Tortilla esponjosa con champiñones Portobello.",
+        "allergens": ["huevo"],
+        "type": "Entrantes y principales"
+    },
+    {
+        "name": "Ensalada Majareta",
+        "src": "/images/ensalada_majareta.jpg",
+        "alt": "Imagen de la ensalada Majareta",
+        "price": [{ "name": "Plato", "value": "12.90"}],
+        "description": "Brotes verdes con queso feta y parmesano, manzana, frutos secos, y vinagreta de críticos y vermut.",
+        "allergens": ["lactosa", "frutos secos"],
+        "type": "Entrantes y principales"
+    },
+    {
+        "name": "Queso curado de oveja",
+        "src": "/images/queso_curado.jpg",
+        "alt": "Imagen de tabla de queso curado de oveja",
+        "price": [{ "name": "Plato", "value": "13.50"}],
+        "description": "",
+        "allergens": ["lactosa"],
+        "type": "Entrantes y principales"
+    },
+    {
+        "name": "Burrata",
+        "src": "/images/burrata.jpg",
+        "alt": "Imagen de una burrata con acompañamiento",
+        "price": [{ "name": "Plato", "value": "12.90"}],
+        "description": "",
+        "allergens": ["lactosa"],
+        "type": "Entrantes y principales"
+    },
+    {
+        "name": "Huevos rotos con alcachofas y puerro",
+        "src": "/images/huevos_rotos.jpg",
+        "alt": "Imágen de huevos rotos con alcachofas",
+        "price": [{ "name": "Plato", "value": "14.50"}],
+        "description": "Huevos rotos con alcachofas y puerro, aceite de albahaca y parmesano",
+        "allergens": ["huevo","lactosa"],
+        "type": "Entrantes y principales"
+    },
+    {
+        "name": "Ensaladilla rusa con salmón",
+        "src": "/images/ensaladilla_salmon.jpg",
+        "alt": "Imágen de una ensaladilla con salmón",
+        "price": [{ "name": "Plato", "value": "10.50"}],
+        "description": "",
+        "allergens": ["huevo","pescado"],
+        "type": "Entrantes y principales"
+    },
+    {
+        "name": "Carpaccio de champiñón con pesto, parmesano y aceite de trufa blanca",
+        "src": "/images/carpaccio.jpg",
+        "alt": "Imágen de un carpaccio de champión con pesto",
+        "price": [{ "name": "Plato", "value": "11.90"}],
+        "description": "",
+        "allergens": ["lactosa"],
+        "type": "Entrantes y principales"
+    },
+    {
+        "name": "Ensalada templada de alcachofa, puerro y champiñón portobello",
+        "src": "/images/ensalada_templada.jpg",
+        "alt": "Imágen de una ensalada de templada de alcachofa",
+        "price": [{ "name": "Plato", "value": "13.90"}],
+        "description": "",
+        "allergens": [""],
+        "type": "Entrantes y principales"
+    },
+    {
+        "name": "Lomo de vaca fileteado",
+        "src": "/images/lomo_vaca.jpg",
+        "alt": "Imágen de un lomo de vaca fileteado",
+        "price": [{ "name": "Plato", "value": "24.90"}],
+        "description": "",
+        "allergens": [""],
+        "type": "Entrantes y principales"
+    },
+    {
+        "name": "Tarta Majareta (tarta casera, preguntar por la tarta del día)",
+        "src": "/images/tarta.jpg",
+        "alt": "Imágen de una tarta de queso",
+        "price": [{ "name": "Porción", "value": "6.90"}],
+        "description": "",
+        "allergens": ["lactosa"],
+        "type": "Postres"
+    }
+]

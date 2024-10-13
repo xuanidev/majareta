@@ -1,0 +1,47 @@
+:root {
+    --white: #ffffff;
+    --navbar-height: 6rem;
+    --footer-height: 100px; /* Ajusta este valor según la altura real de tu footer */
+    --sm: 768px;
+    --md: 1024px;
+    --xl: 1440px;
+    --xxl: 1920px;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: var(--font-raleway), sans-serif; 
+    height: 100vh; 
+    width: 100%;
+    background-image: url('../public/images/bg_majareta.png'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.antialised {
+    -webkit-font-smoothing: antialised;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.backgroundNone {
+    background-image: none;
+}
+
+.kodchasan {
+    font-family: var(--font-kodchasan), sans-serif;
+}
+
+.source-sans-3 {
+    font-family: var(--font-source-sans-3), sans-serif;
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-image: url('../public/images/bg_1024.png'); 
+    }
+}

@@ -1,0 +1,51 @@
+.smallProductCard {
+  width: calc(33.33% - 1rem);
+  max-width: none;
+  height: auto;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+
+  box-sizing: border-box;
+}
+
+.smallProductCard:hover {
+  cursor: pointer;
+}
+
+.smallProductCardImg {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+  border-bottom: 1px solid black;
+}
+
+.smallProductCardContent {
+  padding: 0.5rem 1rem;
+}
+
+.smallProductCardTitle {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+.smallProductCardPrice {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .smallProductCard {
+    width: calc(50% - 0.75rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .smallProductCard {
+    width: 100%;
+  }
+}

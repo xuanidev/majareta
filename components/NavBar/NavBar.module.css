@@ -1,0 +1,66 @@
+.navBar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navBarLinkBack{
+    height: 2.5rem;
+    width: 2.5rem;
+    display: grid;
+    place-content: center;
+}
+.backIcon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.navBarLinkMain{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-right: 2.5rem;
+}
+.navBarImage{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: cover;
+}
+.navBarTitle{
+    font-family: var(--font-poppins);
+    font-size: 1.25rem;
+}
+@media (min-width: 1024px) {
+    .navBarLinkBack{
+        height: 2.5rem;
+        width: 6rem;
+        display: grid;
+        place-content: center;
+    }
+    .navBarLinkMain{
+        justify-content: center;
+        margin-right: 6rem;
+        gap: 0.75rem;
+    }
+    .backIcon{
+        width: 2rem;
+        height: 2rem;
+    }
+    .navBarImage{
+        width: 3rem;
+        height: 3rem;
+        background-size: cover;
+    }
+    .navBarTitle{
+        font-family: var(--font-poppins);
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,10 @@
+export { Email } from "./Email";
+export { Phone } from "./Phone";
+export { Instagram } from "./Instagram";
+export { Facebook } from "./Facebook";
+export { Warning } from "./Warning";
+export { Back } from "./Back";
+export { Lactose } from "./Lactose";
+export { Gluten } from "./Gluten";
+export { Egg } from "./Egg";
+export { Peanut } from "./Peanut";
